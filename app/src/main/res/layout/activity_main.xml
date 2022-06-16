@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#141519"
+    >
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnIntentExplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Explicit"
+        android:backgroundTint="#77078A"
+        android:textColor="#FFEB3B"
+        />
+    <Button
+        android:id="@+id/btnIntentWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Widget"
+        android:backgroundTint="#77078A"
+        android:textColor="#FFEB3B"
+        />
+
+</LinearLayout>
